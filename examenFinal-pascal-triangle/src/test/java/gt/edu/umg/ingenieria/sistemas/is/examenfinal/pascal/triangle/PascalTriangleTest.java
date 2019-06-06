@@ -42,7 +42,7 @@ public class PascalTriangleTest {
      */
    
     @Test
-    public void testNormalSize() {
+    public void probarTam() {
         System.out.println("Probando");
         int levels = 2;
         PascalTriangle instance = new PascalTriangle();
@@ -53,7 +53,7 @@ public class PascalTriangleTest {
     }
 
     @Test
-    public void testLevelAmount() {
+    public void probarNiv() {
         System.out.println("Probando");
         int levels =10;
         PascalTriangle instance = new PascalTriangle();        
