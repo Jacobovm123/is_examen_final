@@ -28,13 +28,48 @@ public class BubbleSortTest {
         int[] numbers = null;
         int[] expResult = null;
         int[] result = BubbleSort.sortBasic(numbers);
-        assertArrayEquals(expResult, result);
-        
-        
-        
-        
-        
-      
+  
+    }
+    
+    @Test
+    public void testSortBasic1() {
+        System.out.println("sortBasic");
+        int[] numbers = new int []{0};
+        int[] expResult = new int []{1};
+        int[] result = BubbleSort.sortBasic(numbers);
+  
+    }
+    
+   
+
+       @Test
+    public void testSortBasic2() {
+        System.out.println("sortBasic");
+        int[] numbers = new int []{1,2,3,4,5};
+        int[] expResult = new int []{120,60,40,30,24};
+        int[] result = BubbleSort.sortBasic(numbers);
+  
+    }
+    
+        // wh
+    
+      @Test
+    public void testSortBasic3() {
+        System.out.println("sortBasic");
+        int[] numbers = new int []{0};
+        int[] expResult = new int []{1};
+        int[] result = BubbleSort.sortBasic(numbers);
+  
+    }
+    
+    
+          @Test
+    public void testSortBasic4() {
+        System.out.println("sortBasic");
+        int[] numbers = new int []{1};
+        int[] expResult = new int []{1};
+        int[] result = BubbleSort.sortBasic(numbers);
+  
     }
     
 }
